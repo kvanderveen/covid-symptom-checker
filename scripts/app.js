@@ -1,18 +1,11 @@
-const start = document.querySelector('.start');
 const question = document.querySelector('.question');
 const form = document.querySelector('.form');
 const recommendation = document.querySelector('.recommendation');
 
-function startQuestions() {
-    start.addEventListener('click', () => {
-        start.remove();
-        question.textContent = 'Are you having any symptoms?';
-        form.innerHTML = symptomsYesOrNo;
-        funcYesOrNo();
-    });
-}
 
 function funcYesOrNo() {
+    question.textContent = 'Are you having any symptoms?';
+    form.innerHTML = symptomsYesOrNo;
     const formYesOrNo = document.querySelector('.yes-or-no');
     formYesOrNo.addEventListener('submit', e => {
         e.preventDefault();
@@ -72,4 +65,4 @@ function funcMinorSymptoms() {
     })
 }
 
-startQuestions();
+funcYesOrNo();
