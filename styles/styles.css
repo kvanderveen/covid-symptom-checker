@@ -1,0 +1,17 @@
+body {
+    background-color: #efefef;
+}
+.nav {
+    background-color: #fefefe;
+}
+.jumbotron {
+    background-color: #dedede;
+}
+
+ul {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}

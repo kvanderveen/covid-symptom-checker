@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Symptom Checker</title>
+</head>
+<body> 
+    <ul class="nav text-secondary justify-content-start">
+        <li class="nav-item mx-2">
+            <a class="nav-link text-secondary" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link text-secondary" href="data.html">Data</a>
+        </li>
+        <li class="nav-item mx-2">
+            <a class="nav-link text-secondary" href="symptom-checker.html">Symptom Checker</a>
+        </li>
+    </ul>
+
+    <div class="container my-5">
+        <h1 class="display-4 my-5">Symptom Checker</h1>
+        <button class="start btn btn-primary btn-lg">Start</button>
+        <div class="question lead"></div>
+        <form class="symptoms-1 px-2"></form>
+        <form class="symptoms-2 px-2"></form>
+        <form class="symptoms-3 px-2"></form>
+        <div class="no-symptoms"></div>
+        <div class="testing"></div>
+    </div>
+    <script src="../scripts/questions.js"></script>
+    <script src="../scripts/app.js"></script>
+</body>
+</html>
